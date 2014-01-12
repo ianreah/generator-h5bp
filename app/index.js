@@ -37,6 +37,7 @@ Generator.prototype.copyFiles = function () {
 		this.directory('css');
 		this.directory('img');
 		this.directory('js');
+		this.directory('specs');
 		this.expandFiles('*', {
 			cwd: this.sourceRoot(),
 			dot: true
